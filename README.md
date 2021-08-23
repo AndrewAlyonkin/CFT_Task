@@ -1,5 +1,5 @@
-[![Codacy Badge]( )
-[![Build Status]( )
+[![Codacy Badge]([![Codacy Badge](https://app.codacy.com/project/badge/Grade/5ae864a3fc4f4a17812d9929538d4599)](https://www.codacy.com/gh/AndrewAlyonkin/CFT_Task/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AndrewAlyonkin/CFT_Task&amp;utm_campaign=Badge_Grade))  
+[![Build Status]([![Build Status](https://app.travis-ci.com/AndrewAlyonkin/CFT_Task.svg?branch=master)](https://app.travis-ci.com/AndrewAlyonkin/CFT_Task))
 
 Разработать консольное приложение на Java (Scala/Kotlin) для расчета статистики по тексту.
 
