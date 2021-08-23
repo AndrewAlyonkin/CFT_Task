@@ -38,3 +38,6 @@ src/main/resources/samples.txt src/main/resources/source.txt src/main/resources/
 >сс 1  
 >с1с1 1  
 >ъ 1  
+
+![alt text](test_sequence.png)  
+![alt text](test_uml.png)  
