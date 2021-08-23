@@ -7,7 +7,7 @@ import lombok.Setter;
 /**
  * @author Alenkin Andrew
  * oxqq@ya.ru
- *
+ * <p>
  * Represents the abstract pattern that the word to check must match.
  */
 @Getter

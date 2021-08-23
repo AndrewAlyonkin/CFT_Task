@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * @author Alenkin Andrew
  * oxqq@ya.ru
- *
+ * <p>
  * Сounts the number of words in the text that match the given patterns.
  */
 public interface TextProcessor {
