@@ -24,7 +24,6 @@ public class MainProcessor {
             System.out.println("File processing results here: " + filePath);
         } catch (IOException e) {
             log.error("File handling error! {}", e.getMessage());
-            e.printStackTrace();
         }
     }
 }
