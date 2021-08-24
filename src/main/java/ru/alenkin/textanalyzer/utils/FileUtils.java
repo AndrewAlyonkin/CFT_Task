@@ -41,11 +41,12 @@ public class FileUtils {
 
     public static void checkFileWords(String fileName, List<SampleCheckResult> samples, TextExecutor textExecutor) throws IOException {
         log.info("Reading and analyzing words from {}", fileName);
-        Files.readAllLines(Paths.get(fileName))
-                .parallelStream()
-                .map(line -> line.split(" "))
-                .flatMap(Arrays::stream)
-                .forEach(word -> textExecutor.execute(word, samples));
+        try (Stream<String> linesParallel = Files.readAllLines(Paths.get(fileName)).parallelStream()) {
+            linesParallel
+                    .map(line -> line.split(" "))
+                    .flatMap(Arrays::stream)
+                    .forEach(word -> textExecutor.execute(word, samples));
+        }
     }
 
     public static String writeToFile(String destFileName, List<String> results) throws IOException {
